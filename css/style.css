@@ -183,6 +183,7 @@ p {
 .navbar .btn-secondary {
   margin-right: 16px;
 }
+
 .navbar a {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 24px;
@@ -363,6 +364,71 @@ p {
 
 .footer i {
   margin-bottom: 96px;
+}
+
+/* MODAL */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  margin: 0 auto;
+  width: 1114px;
+  height: 540px;
+}
+
+.modal-body {
+  background-color: #fff;
+  padding: 96px;
+  gap: 16px;
+}
+
+.m-left {
+  grid-column: span 6;
+}
+
+.m-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.btn-modal {
+  font-size: 12px;
+  padding: 16px 32px;
+  color: #fff;
+  background-color: #ff00b7;
+  margin-top: 32px ;
+}
+
+.m-right {
+  grid-column: span 6;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* MEDIA QUERIES */
