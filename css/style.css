@@ -408,7 +408,7 @@ p {
   padding: 16px 32px;
   color: #fff;
   background-color: #ff00b7;
-  margin-top: 32px ;
+  margin-top: 32px;
 }
 
 .m-right {
@@ -507,7 +507,7 @@ p {
   }
 
   .work-card p {
-    margin-bottom: 16px ;
+    margin-bottom: 16px;
   }
 
   /* SKILLS */
@@ -581,7 +581,7 @@ p {
   }
 
   .work-card {
-    height: 445px ;
+    height: 445px;
     width: 354px;
     grid-template-columns: 1fr;
     grid-template-rows: 220px 225px;
@@ -593,5 +593,6 @@ p {
   }
 
   .footer h2 {
-    font-size: 34px ;
+    font-size: 34px;
   }
+}
