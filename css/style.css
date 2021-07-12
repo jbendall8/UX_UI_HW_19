@@ -31,6 +31,10 @@ li {
   height: 100%;
 }
 
+nav {
+  overflow: hidden;
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;
